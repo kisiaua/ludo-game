@@ -259,9 +259,9 @@ void stworzGre(Pole pole[40], PStartowe pstart[][4], Gracz gracz[4][4]) {
 
 int graj(char plansza[][rozmiarPlanszy], Pole pole[40], PStartowe pstart[][4], Gracz gracz[4][4], int iloscGraczy) {
 
-    // gracz[0][0].indeks = 38;
-    // gracz[0][0].x = 0;
-    // gracz[0][0].y = 5;
+    gracz[0][0].indeks = 38;
+    gracz[0][0].x = 0;
+    gracz[0][0].y = 5;
 
     //Pobranie ilosci graczy
     while (iloscGraczy > 4 || iloscGraczy < 2) {
