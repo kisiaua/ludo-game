@@ -7,5 +7,3 @@ Konrad
 Filip
 Bartosz
 Kuba Boguslaw
-csd
-csdc 
